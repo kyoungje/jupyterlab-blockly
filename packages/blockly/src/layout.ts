@@ -32,7 +32,8 @@ export class BlocklyLayout extends SplitLayout {
     rendermime: IRenderMimeRegistry,
     factoryService: IEditorFactoryService
   ) {
-    super({ renderer: SplitPanel.defaultRenderer, orientation: 'vertical' });
+    // Creating a SplitLayout with a horizontal orientation
+    super({ renderer: SplitPanel.defaultRenderer, orientation: 'horizontal' });
     this._manager = manager;
     this._sessionContext = sessionContext;
 

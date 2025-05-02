@@ -1,3 +1,9 @@
+# jupyterlab-blockly for WMX
+This is the forked project of https://github.com/google/blockly
+It supports new features:
+- The horizontal orientation split view
+- Resolve the block size issue due to the font family default setting
+
 # jupyterlab-blockly
 
 [![Github Actions Status](https://github.com/QuantStack/jupyterlab-blockly/actions/workflows/build.yml/badge.svg)](https://github.com/quantstack/jupyterlab-blockly/actions/workflows/build.yml)

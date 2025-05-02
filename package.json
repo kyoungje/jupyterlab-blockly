@@ -2,23 +2,24 @@
   "name": "jupyterlab-blockly-root",
   "private": true,
   "version": "0.3.3",
-  "description": "Blockly extension for JupyterLab.",
+  "description": "Fork of Blockly extension for JupyterLab.",
   "keywords": [
+    "blockly",
     "jupyter",
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/QuantStack/jupyterlab-blockly",
+  "homepage": "https://github.com/kyoungje/jupyterlab-blockly",
   "bugs": {
-    "url": "https://github.com/QuantStack/jupyterlab-blockly/issues"
+    "url": "https://github.com/kyoungje/jupyterlab-blockly/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/QuantStack/jupyterlab-blockly"
+    "url": "https://github.com/kyoungje/jupyterlab-blockly"
   },
   "license": "BSD-3-Clause",
   "author": {
-    "name": "quantstack",
+    "name": "kyoungje",
     "email": ""
   },
   "workspaces": {
@@ -57,5 +58,6 @@
   "devDependencies": {
     "lerna": "^6.5.1",
     "yarn-deduplicate": "^6.0.0"
-  }
+  },
+  "packageManager": "yarn@4.9.1"
 }

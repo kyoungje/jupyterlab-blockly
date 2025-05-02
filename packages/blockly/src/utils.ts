@@ -369,7 +369,8 @@ const jupyterlab_theme = Blockly.Theme.defineTheme('jupyterlab', {
     cursorColour: 'var(--jp-scrollbar-background-color)'
   },
   fontStyle: {
-    family: 'var(--jp-ui-font-family)'
+    // letters are corrupted in spacing with var()
+    family: '--jp-ui-font-family'
   }
 });
 
