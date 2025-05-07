@@ -1,7 +1,7 @@
 {
   "name": "jupyterlab-blockly-root",
   "private": true,
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Fork of Blockly extension for JupyterLab.",
   "keywords": [
     "blockly",
@@ -31,7 +31,7 @@
     "build": "lerna run --stream build",
     "build:prod": "lerna run --stream build:prod",
     "clean": "lerna run --stream clean",
-    "clean:all": "lerna --stream run clean:all",
+    "clean:all": "lerna run --stream clean:all",
     "deduplicate": "yarn-deduplicate -s fewer --fail",
     "eslint": "jlpm eslint:check --fix",
     "eslint:check": "eslint . --ext .ts,.tsx",
@@ -58,6 +58,5 @@
   "devDependencies": {
     "lerna": "^6.5.1",
     "yarn-deduplicate": "^6.0.0"
-  },
-  "packageManager": "yarn@4.9.1"
+  }
 }
