@@ -23,6 +23,7 @@
     "email": ""
   },
   "workspaces": {
+    "private": true,
     "packages": [
       "packages/*"
     ]
